@@ -1,0 +1,153 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background: url(https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png); 
+	margin-top: 0px;
+}
+
+/************************
+	Entête
+*************************/
+header {
+	background: #f0ece7;
+	margin: auto;
+	width: 960px;
+}
+/* navigation menu du haut (couleur foncée)*/
+.menu-principal {
+	background-color: #333333;
+	margin: auto;
+	height: 40px;
+	line-height: 40px;
+}
+.menu-principal a {
+	color: #CACACA
+}
+/*conteneur de menuDauche*/
+ul.menuGauche {
+	display: inline;
+	padding-left: 50px;
+}
+/*liste dans menuGauche*/
+.menuGauche li {
+	margin: auto;
+	list-style: none;
+	display: inline;
+}
+.menuGauche li a:hover {
+	color: #aba059;
+	background: black;
+}
+/*conteneur de menuDroite*/
+ul.menuDroite {
+    margin: 0px;
+    padding-right: 50px;
+	float: right;
+}
+/*liste dans menuDroite*/
+span {
+	color: white;
+}
+.menuDroite li {	
+    margin: auto;
+    list-style: none;
+	display: inline;
+}
+.menuDroite li a {
+	padding: 5px;
+}
+.menuDroite li a:hover {
+	padding: 10px 5px 10px 5px;
+	color: white;
+}
+/*Couleur&Style des liens*/
+header a {
+	text-decoration: none;
+	padding: 10px;
+}
+/*tous les h1 qui sont dans header*/
+header h1 {
+	padding: 40px;
+	margin: auto;
+	color: #bfab92;
+	text-align: center;
+    font-weight: 300;
+}
+/* Fin Entête&Header*/
+
+
+/************************
+	Contenue Principale
+*************************/
+.section-principale {
+	text-align: center;
+	background: white;
+	margin: auto;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	width: 960px;	
+}
+.image-diapo {
+	margin-bottom: 0px;
+}
+/*Couleur&Style des liens*/
+.image-diapo a {
+	color: white;
+	text-decoration: none;
+	text-align: left;
+	display: block;
+}
+/*Conteneur du text pour section-diapo*/
+.text-diapo {
+	position: absolute;
+	background: black;
+	height: 70px;
+    width: 860px;
+    margin-left: 10px;
+    margin-top: 260px;
+    padding: 15px 10px 10px 15px;
+    background-color: rgba(0,0,0,0.4);  
+}
+.bigger {
+	font-size: 20px
+}
+.btn-diaporama {
+	text-align: center;
+	color: grey;
+	height: 40px;
+    line-height: 40px;
+    margin: 0px;
+    
+}
+.btn-diaporama > li {
+	display: inline-block;
+	align-content: center;
+	list-style: none;
+	color: #636363;
+}
+/*text du bas*/
+article.intro {
+	text-align: left;
+	color: #666666;
+	width: 860px;
+	margin: auto;
+	padding-left: 60px;
+	padding-right: 60px;
+	border-top: dotted; 
+	border-bottom-style: groove;
+    border-bottom-width: thin;	
+}
+/*fin principale*/
+
+/*footer*/
+footer {
+	text-align: right;
+	background: white;
+	color: #666666;
+	width: 960px;	
+	margin: auto;
+	padding: 1px 75px 1px 60px;
+}
+/*fin footer*/
